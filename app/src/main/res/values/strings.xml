@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bate Aí</string>
+    <string name="offline">Funciona offline</string>
+    <string name="entrar">Entrar</string>
+    <string name="criar_conta">Criar minha conta</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Seu nome</string>
+    <string name="confirmacao">Confirme sua senha</string>
+    <string name="login_rotulo">SEU TEMPO, BEM REGISTRADO</string>
+    <string name="login_titulo">Sua jornada\ncomeça aqui.</string>
+    <string name="login_descricao">Entre para registrar seus pontos e acompanhar seu dia, mesmo sem internet.</string>
+    <string name="primeiro_acesso">Primeiro acesso? Criar conta</string>
+    <string name="dados_locais">Seus dados ficam somente neste dispositivo. Cada pessoa tem sua própria conta e histórico.</string>
+    <string name="cadastro_titulo">Vamos começar.</string>
+    <string name="cadastro_descricao">Crie sua conta local. Só você acessa seus registros com sua senha.</string>
+    <string name="senha_cadastro">Senha (pelo menos 8 caracteres)</string>
+    <string name="ja_tenho_conta">Já tenho conta</string>
+    <string name="inicio_descricao">Acompanhe seu tempo, uma batida de cada vez.</string>
+    <string name="tempo_trabalhado_rotulo">TEMPO TRABALHADO</string>
+    <string name="ver_historico">Ver histórico</string>
+    <string name="atualizar_totais">Atualizar totais</string>
+    <string name="sair_conta">Sair da conta</string>
+    <string name="historico_rotulo">CADA DIA CONTA</string>
+    <string name="historico_titulo">Seu histórico.</string>
+    <string name="historico_descricao">Jornadas organizadas pela data da entrada. O dia mais recente aparece primeiro.</string>
+    <string name="atualizar_historico">Atualizar histórico</string>
+    <string name="voltar_inicio">Voltar ao início</string>
+    <string name="status_parcial">%1$s · total parcial</string>
+    <string name="resumo_horas">Trabalhado: %1$s\nIntervalo: %2$s</string>
+    <string name="linha_batida">%1$s\n%2$s</string>
+</resources>

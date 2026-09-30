@@ -1,0 +1,13 @@
+plugins {
+    id 'com.android.application' version '9.1.1' apply false
+}
+
+subprojects {
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+    tasks.withType(Test).configureEach {
+        useJUnit()
+        testLogging { events 'failed', 'skipped' }
+    }
+}

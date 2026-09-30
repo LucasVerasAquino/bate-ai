@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView style="@style/Titulo" android:text="@string/cadastro_titulo" />
+    <TextView style="@style/Descricao" android:text="@string/cadastro_descricao" />
+    <TextView style="@style/Rotulo" android:text="@string/nome" android:labelFor="@+id/nome" />
+    <EditText android:id="@id/nome" style="@style/Campo" android:inputType="textPersonName|textCapWords" android:autofillHints="personName" android:imeOptions="actionNext" />
+    <TextView style="@style/Rotulo" android:text="@string/email" android:labelFor="@+id/email" />
+    <EditText android:id="@id/email" style="@style/Campo" android:inputType="textEmailAddress" android:autofillHints="emailAddress" android:imeOptions="actionNext" />
+    <TextView style="@style/Rotulo" android:text="@string/senha_cadastro" android:labelFor="@+id/senha" />
+    <EditText android:id="@id/senha" style="@style/Campo" android:inputType="textPassword" android:autofillHints="newPassword" android:imeOptions="actionNext" android:saveEnabled="false" />
+    <TextView style="@style/Rotulo" android:text="@string/confirmacao" android:labelFor="@+id/confirmacao" />
+    <EditText android:id="@id/confirmacao" style="@style/Campo" android:inputType="textPassword" android:autofillHints="newPassword" android:imeOptions="actionDone" android:saveEnabled="false" />
+    <Button android:id="@+id/cadastrar" style="@style/Botao" android:text="@string/criar_conta" />
+    <Button android:id="@+id/voltar_login" style="@style/BotaoSecundario" android:text="@string/ja_tenho_conta" />
+</LinearLayout>

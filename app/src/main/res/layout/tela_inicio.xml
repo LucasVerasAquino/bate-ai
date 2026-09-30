@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:id="@+id/data_hoje" style="@style/Rotulo" android:textColor="@color/verde" />
+    <TextView android:id="@+id/saudacao" style="@style/Titulo" />
+    <TextView style="@style/Descricao" android:text="@string/inicio_descricao" />
+    <LinearLayout style="@style/Card">
+        <TextView android:id="@+id/status" style="@style/Rotulo" android:layout_width="wrap_content" android:background="@drawable/selo" android:textColor="@color/verde" android:layout_marginBottom="16dp" />
+        <TextView style="@style/Rotulo" android:text="@string/tempo_trabalhado_rotulo" android:textSize="12sp" android:letterSpacing="0.08" />
+        <TextView android:id="@+id/tempo_trabalhado" style="@style/Titulo" android:textSize="40sp" android:fontFamily="sans-serif-light" />
+        <TextView android:id="@+id/tempo_intervalo" style="@style/Descricao" android:layout_marginBottom="12dp" />
+        <TextView android:id="@+id/jornada_data" style="@style/Descricao" android:textSize="13sp" android:layout_marginBottom="6dp" />
+        <TextView android:id="@+id/ultima_batida" style="@style/Descricao" android:textSize="14sp" android:layout_marginBottom="6dp" />
+        <TextView android:id="@+id/atualizado" style="@style/Descricao" android:textSize="12sp" android:layout_marginBottom="0dp" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/acoes" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+    <TextView android:id="@+id/nota_jornada" style="@style/Descricao" android:textSize="14sp" />
+    <Button android:id="@+id/historico" style="@style/BotaoSecundario" android:text="@string/ver_historico" />
+    <Button android:id="@+id/atualizar" style="@style/BotaoSecundario" android:text="@string/atualizar_totais" />
+    <Button android:id="@+id/sair" style="@style/BotaoSecundario" android:text="@string/sair_conta" />
+</LinearLayout>

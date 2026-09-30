@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView style="@style/Rotulo" android:text="@string/login_rotulo" android:textColor="@color/verde" android:letterSpacing="0.08" />
+    <TextView style="@style/Titulo" android:text="@string/login_titulo" />
+    <TextView style="@style/Descricao" android:text="@string/login_descricao" />
+    <TextView style="@style/Rotulo" android:text="@string/email" android:labelFor="@+id/email" />
+    <EditText android:id="@id/email" style="@style/Campo" android:inputType="textEmailAddress" android:autofillHints="emailAddress" android:imeOptions="actionNext" />
+    <TextView style="@style/Rotulo" android:text="@string/senha" android:labelFor="@+id/senha" />
+    <EditText android:id="@id/senha" style="@style/Campo" android:inputType="textPassword" android:autofillHints="password" android:imeOptions="actionDone" android:saveEnabled="false" />
+    <Button android:id="@+id/entrar" style="@style/Botao" android:text="@string/entrar" />
+    <Button android:id="@+id/ir_cadastro" style="@style/BotaoSecundario" android:text="@string/primeiro_acesso" />
+    <TextView style="@style/Descricao" android:text="@string/dados_locais" android:textSize="13sp" android:gravity="center" android:layout_marginTop="12dp" />
+</LinearLayout>

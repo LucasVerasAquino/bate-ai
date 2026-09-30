@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView style="@style/Rotulo" android:text="@string/historico_rotulo" android:textColor="@color/verde" android:letterSpacing="0.08" />
+    <TextView style="@style/Titulo" android:text="@string/historico_titulo" />
+    <TextView style="@style/Descricao" android:text="@string/historico_descricao" />
+    <LinearLayout android:id="@+id/lista_jornadas" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+    <Button android:id="@+id/atualizar" style="@style/BotaoSecundario" android:text="@string/atualizar_historico" />
+    <Button android:id="@+id/voltar_inicio" style="@style/BotaoSecundario" android:text="@string/voltar_inicio" />
+</LinearLayout>

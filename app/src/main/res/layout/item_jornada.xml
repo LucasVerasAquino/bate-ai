@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/Card">
+    <TextView android:id="@+id/data_jornada" style="@style/Titulo" android:textSize="20sp" />
+    <TextView android:id="@+id/status_jornada" style="@style/Rotulo" android:textColor="@color/verde" />
+    <TextView android:id="@+id/resumo_jornada" style="@style/Descricao" android:textSize="15sp" />
+    <LinearLayout android:id="@+id/batidas_jornada" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+</LinearLayout>

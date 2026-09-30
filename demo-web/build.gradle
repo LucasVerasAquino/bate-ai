@@ -1,0 +1,16 @@
+plugins { id 'application' }
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+application {
+    mainClass = 'br.com.bateai.web.Main'
+    applicationDefaultJvmArgs = ['--enable-native-access=ALL-UNNAMED']
+}
+dependencies {
+    implementation project(':core')
+    implementation 'org.xerial:sqlite-jdbc:3.53.4.0'
+    testImplementation 'junit:junit:4.13.2'
+}
+tasks.named('run') { workingDir rootProject.projectDir }
+tasks.withType(Test).configureEach { jvmArgs '--enable-native-access=ALL-UNNAMED' }
